@@ -1,0 +1,14 @@
+cd -> Change directory
+pwd -> get current working directory
+ls -> list (basically listing all the files and directories)
+cp -> copy file or folder
+mv -> move file or folder
+rm -> remove file or folder (rm -rf)
+echo -> print in screen (echo "Hello")
+cat -> prints all the contents of the file 
+less -> similar to `cat` however it will print all the content of the file in another window
+grep -> filter the content provided from the result returned (ls | grep <search>)
+mkdir -> Make directory
+touch -> Create file
+chmod -> Change mode of file or folder
+man + help

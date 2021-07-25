@@ -1,0 +1,13 @@
+chmod ugo filename
+u = user (permissions for the current-user)
+g = user-group (permissions for current-user-group)
+o = others (permissions for all other user and user groups)
+
+0 = 0 = nothing
+1 = 1 = execute
+2 = 2 = write
+3 = 2 + 1 = write + execute (w+x)
+4 = 4 = read
+5 = 4 + 1 = read + execute (r+e)
+6 = 4 + 2 = read + write (r+w)
+7 = 4 + 2 + 1 = read + write + execute (r+w+e)
